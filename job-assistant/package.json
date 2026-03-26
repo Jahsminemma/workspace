@@ -1,0 +1,30 @@
+{
+  "name": "job-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "worker": "tsx worker/index.ts",
+    "render-resumes": "tsx scripts/render-resumes.ts"
+  },
+  "dependencies": {
+    "mammoth": "^1.8.0",
+    "next": "14.2.25",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.53.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
